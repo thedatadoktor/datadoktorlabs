@@ -7,7 +7,7 @@ export default function ThemeToggle() {
     try { localStorage.setItem("theme", next); } catch {}
   };
   return (
-    <button onClick={toggle} className="px-3 py-2 rounded border border-primary/30 hover:bg-primary/10 transition text-text-primary dark:text-slate-200 text-sm font-medium" title="Toggle dark mode">
+    <button onClick={toggle} className="px-3 py-2 border-3 border-primary bg-bg-light dark:bg-bg-dark-section hover:bg-accent dark:hover:bg-accent transition text-text-primary dark:text-secondary text-sm font-medium" title="Toggle dark mode">
       {typeof window !== "undefined" && document.documentElement.classList.contains("dark") ? "☀️" : "🌙"}
     </button>
   );

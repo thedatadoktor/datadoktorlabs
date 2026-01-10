@@ -2,15 +2,15 @@
 
 :root {
   /* Primary: Cloud Navy */
-  --color-primary: #1E3A5F;
+  --color-primary: #0a1f35;
   /* Secondary: Clean Teal */
-  --color-secondary: #2DD4BF;
+  --color-secondary: #1a9d8f;
   /* Accent: Soft Amber */
-  --color-accent: #FDBA3B;
+  --color-accent: #d97706;
   /* Light mode */
-  --color-bg-light: #FBFDFF;
-  --color-text-primary: #0F1F33;
-  --color-text-muted: #64748B;
+  --color-bg-light: #f8fafc;
+  --color-text-primary: #0f172a;
+  --color-text-muted: #475569;
   /* Dark mode */
   --color-bg-dark-section: #16263F;
 }
@@ -26,9 +26,12 @@
 }
 
 .dark {
-  --color-text-primary: #e2e8f0;
+  --color-primary: #60a5fa;
+  --color-secondary: #2dd4bf;
+  --color-accent: #fbbf24;
+  --color-text-primary: #f1f5f9;
   --color-text-muted: #cbd5e1;
-  --color-bg-light: var(--color-bg-dark-section);
+  --color-bg-light: #0f172a;
 }
 
 body {
