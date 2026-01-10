@@ -40,18 +40,24 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
+      <head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function() {
+                try {
+                  const theme = localStorage.getItem('theme');
+                  if (theme === 'dark' || (!theme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+                    document.documentElement.classList.add('dark');
+                  }
+                } catch (e) {}
+              })();
+            `,
+          }}
+        />
+      </head>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        {/* Persist theme before hydration */}
-        <Script id="theme-init" strategy="beforeInteractive">
-          {`
-            try {
-              const theme = localStorage.getItem('theme');
-              if (theme === 'dark') document.documentElement.classList.add('dark');
-              else if (theme === 'light') document.documentElement.classList.remove('dark');
-            } catch {}
-          `}
-        </Script>
         <Navbar />
         <main className="min-h-screen">{children}</main>
         <Footer />

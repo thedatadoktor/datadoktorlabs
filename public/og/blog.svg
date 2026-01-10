@@ -1,1 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630"><rect width="1200" height="630" fill="#0b1023"/><text x="60" y="140" font-family="Arial,sans-serif" font-size="72" fill="#ffffff">Blog</text><text x="60" y="240" font-family="Arial,sans-serif" font-size="48" fill="#a3e3ff">From the Lab</text><text x="60" y="340" font-family="Arial,sans-serif" font-size="32" fill="#cbd5e1">Notes on production data systems.</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0b1023;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a2442;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#grad)"/>
+  <text x="60" y="140" font-family="system-ui,-apple-system,sans-serif" font-size="64" font-weight="700" fill="#ffffff">Blog</text>
+  <text x="60" y="240" font-family="system-ui,-apple-system,sans-serif" font-size="40" fill="#60a5fa">From the Lab</text>
+  <rect x="60" y="280" width="120" height="4" fill="#60a5fa"/>
+  <text x="60" y="560" font-family="system-ui,-apple-system,sans-serif" font-size="24" fill="#94a3b8">datadoktorlabs.com</text>
+</svg>

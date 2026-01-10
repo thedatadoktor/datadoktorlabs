@@ -3,8 +3,8 @@ import PageHeader from "@/components/PageHeader";
 export const metadata = {
   title: "Why – Datadoktor Labs",
   description: "Production code. No slide decks. Systems that survive reality.",
-  openGraph: { images: ["/og/home.svg"] },
-  twitter: { images: ["/og/home.svg"] },
+  openGraph: { images: ["/og/why.svg"] },
+  twitter: { images: ["/og/why.svg"] },
 };
 
 export default function Why() {
