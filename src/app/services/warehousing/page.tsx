@@ -12,15 +12,15 @@ export default function Warehousing() {
       <PageHeader title="Warehousing & Modeling" subtitle="Scalable, documented data models" />
       <div className="max-w-4xl mx-auto px-6 py-10 space-y-8">
         <section>
-          <h2 className="text-xl font-semibold">Challenge</h2>
-          <p className="mt-2 text-gray-700 dark:text-gray-300">
+          <h2 className="text-xl font-semibold text-primary dark:text-secondary">Challenge</h2>
+          <p className="mt-2 text-text-primary dark:text-slate-300">
             Queries get slower, costs balloon, and nobody knows what columns mean. Tables multiply without clear ownership or lineage.
           </p>
         </section>
 
         <section>
-          <h2 className="text-xl font-semibold">Our Approach</h2>
-          <ul className="mt-2 list-disc pl-5 space-y-2 text-gray-700 dark:text-gray-300">
+          <h2 className="text-xl font-semibold text-primary dark:text-secondary">Our Approach</h2>
+          <ul className="mt-2 list-disc pl-5 space-y-2 text-text-primary dark:text-slate-300">
             <li>Dimensional modeling or one-big-table patterns as needed</li>
             <li>Column-level documentation and data dictionaries</li>
             <li>Incremental model builds with version control</li>
@@ -30,8 +30,8 @@ export default function Warehousing() {
         </section>
 
         <section>
-          <h2 className="text-xl font-semibold">Deliverables</h2>
-          <ul className="mt-2 list-disc pl-5 space-y-2 text-gray-700 dark:text-gray-300">
+          <h2 className="text-xl font-semibold text-primary dark:text-secondary">Deliverables</h2>
+          <ul className="mt-2 list-disc pl-5 space-y-2 text-text-primary dark:text-slate-300">
             <li>Documented data models with ERDs and schemas</li>
             <li>Transformation code (dbt, SQL, Spark)</li>
             <li>Cost and performance benchmarks</li>

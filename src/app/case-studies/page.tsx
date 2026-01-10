@@ -34,13 +34,13 @@ export default function CaseStudies() {
       <PageHeader title="Case Studies" subtitle="Patterns that survive production" />
       <div className="max-w-6xl mx-auto px-6 py-10 grid gap-6 sm:grid-cols-2">
         {cases.map((c) => (
-          <article key={c.title} className="border rounded p-6 bg-white dark:bg-gray-950">
+          <article key={c.title} className="border border-primary/20 rounded-lg p-6 bg-white dark:bg-bg-dark-section/60 hover:border-secondary transition">
             <div className="flex items-center justify-between">
-              <h3 className="text-lg font-semibold">{c.title}</h3>
-              <span className="text-xs text-gray-500">{c.sector}</span>
+              <h3 className="text-lg font-semibold text-primary dark:text-secondary">{c.title}</h3>
+              <span className="text-xs text-text-muted dark:text-slate-400">{c.sector}</span>
             </div>
-            <p className="mt-2 text-gray-700 dark:text-gray-300">{c.summary}</p>
-            <p className="mt-2 text-sm text-gray-600 dark:text-gray-400">Impact: {c.impact}</p>
+            <p className="mt-2 text-text-primary dark:text-slate-300">{c.summary}</p>
+            <p className="mt-2 text-sm text-text-muted dark:text-slate-400">Impact: {c.impact}</p>
           </article>
         ))}
       </div>

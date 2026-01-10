@@ -16,7 +16,7 @@ export default function Blog() {
       <PageHeader title="Blog" />
       <div className="max-w-4xl mx-auto px-6 space-y-4">
         {posts.map((p: any) => (
-          <Link key={p.slug} href={`/blog/${p.slug}`} className="block underline">
+          <Link key={p.slug} href={`/blog/${p.slug}`} className="block text-secondary hover:text-accent font-medium transition">
             {p.title}
           </Link>
         ))}

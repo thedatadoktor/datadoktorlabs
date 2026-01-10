@@ -12,15 +12,15 @@ export default function Analytics() {
       <PageHeader title="Analytics Engineering" subtitle="Metrics teams can trust" />
       <div className="max-w-4xl mx-auto px-6 py-10 space-y-8">
         <section>
-          <h2 className="text-xl font-semibold">Challenge</h2>
-          <p className="mt-2 text-gray-700 dark:text-gray-300">
+          <h2 className="text-xl font-semibold text-primary dark:text-secondary">Challenge</h2>
+          <p className="mt-2 text-text-primary dark:text-slate-300">
             Different dashboards show different revenue numbers. No one knows which metric is "correct" or where it comes from.
           </p>
         </section>
 
         <section>
-          <h2 className="text-xl font-semibold">Our Approach</h2>
-          <ul className="mt-2 list-disc pl-5 space-y-2 text-gray-700 dark:text-gray-300">
+          <h2 className="text-xl font-semibold text-primary dark:text-secondary">Our Approach</h2>
+          <ul className="mt-2 list-disc pl-5 space-y-2 text-text-primary dark:text-slate-300">
             <li>Centralized metric definitions with semantic layers</li>
             <li>Version-controlled transformation logic (dbt, Looker, etc.)</li>
             <li>Consistent dimension and measure naming conventions</li>
@@ -30,8 +30,8 @@ export default function Analytics() {
         </section>
 
         <section>
-          <h2 className="text-xl font-semibold">Deliverables</h2>
-          <ul className="mt-2 list-disc pl-5 space-y-2 text-gray-700 dark:text-gray-300">
+          <h2 className="text-xl font-semibold text-primary dark:text-secondary">Deliverables</h2>
+          <ul className="mt-2 list-disc pl-5 space-y-2 text-text-primary dark:text-slate-300">
             <li>Metrics catalog with definitions and owners</li>
             <li>Transformation code with tests and CI/CD</li>
             <li>Dashboard templates and documentation</li>
