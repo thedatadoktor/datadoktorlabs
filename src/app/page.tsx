@@ -11,7 +11,7 @@ export const metadata = {
 export default function Home() {
   return (
     <div className="font-sans">
-      <section className="bg-gradient-to-b from-bg-light to-white dark:from-bg-dark-section dark:to-bg-dark-section/80">
+      <section className="bg-gradient-to-b from-bg-light via-bg-light to-bg-light dark:from-bg-dark-section dark:to-bg-dark-section/80">
         <div className="max-w-6xl mx-auto px-6 py-20 grid gap-8 sm:grid-cols-2 items-center">
           <div>
             <h1 className="text-4xl sm:text-5xl font-bold text-primary dark:text-secondary">Data Engineering as a Service</h1>
@@ -24,19 +24,19 @@ export default function Home() {
             </div>
           </div>
           <div className="grid grid-cols-2 gap-4">
-            <div className="border border-primary/20 rounded-lg p-5 bg-white dark:bg-bg-dark-section/60 hover:border-secondary transition">
+            <div className="border border-primary/20 rounded-lg p-5 bg-bg-light dark:bg-bg-dark-section/60 hover:border-secondary transition">
               <h3 className="font-semibold text-primary dark:text-secondary">Reliable ingestion</h3>
               <p className="mt-2 text-sm text-text-muted dark:text-slate-400">Backed by monitoring and clear SLAs.</p>
             </div>
-            <div className="border border-primary/20 rounded-lg p-5 bg-white dark:bg-bg-dark-section/60 hover:border-secondary transition">
+            <div className="border border-primary/20 rounded-lg p-5 bg-bg-light dark:bg-bg-dark-section/60 hover:border-secondary transition">
               <h3 className="font-semibold text-primary dark:text-secondary">Consistent metrics</h3>
               <p className="mt-2 text-sm text-text-muted dark:text-slate-400">Definitions your dashboards can agree on.</p>
             </div>
-            <div className="border border-primary/20 rounded-lg p-5 bg-white dark:bg-bg-dark-section/60 hover:border-secondary transition">
+            <div className="border border-primary/20 rounded-lg p-5 bg-bg-light dark:bg-bg-dark-section/60 hover:border-secondary transition">
               <h3 className="font-semibold text-primary dark:text-secondary">Scalable pipelines</h3>
               <p className="mt-2 text-sm text-text-muted dark:text-slate-400">Batch and streaming systems with failover.</p>
             </div>
-            <div className="border border-primary/20 rounded-lg p-5 bg-white dark:bg-bg-dark-section/60 hover:border-secondary transition">
+            <div className="border border-primary/20 rounded-lg p-5 bg-bg-light dark:bg-bg-dark-section/60 hover:border-secondary transition">
               <h3 className="font-semibold text-primary dark:text-secondary">Observability</h3>
               <p className="mt-2 text-sm text-text-muted dark:text-slate-400">Detect drift and breakages early.</p>
             </div>
@@ -53,14 +53,14 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="bg-white dark:bg-bg-dark-section/50 py-16">
+      <section className="bg-bg-light dark:bg-bg-dark-section/50 py-16">
         <div className="max-w-6xl mx-auto px-6">
           <h2 className="text-3xl font-bold text-primary dark:text-secondary">How We Work</h2>
           <div className="mt-8 grid gap-4 sm:grid-cols-4">
-            <div className="border border-primary/20 rounded-lg p-5 bg-gradient-to-br from-white to-bg-light dark:from-bg-dark-section/60 dark:to-bg-dark-section hover:border-secondary transition"><strong className="text-primary dark:text-secondary">Diagnose</strong><p className="mt-3 text-sm text-text-muted dark:text-slate-400">Audit data flows and failure points.</p></div>
-            <div className="border border-primary/20 rounded-lg p-5 bg-gradient-to-br from-white to-bg-light dark:from-bg-dark-section/60 dark:to-bg-dark-section hover:border-secondary transition"><strong className="text-primary dark:text-secondary">Design</strong><p className="mt-3 text-sm text-text-muted dark:text-slate-400">Target architecture and models.</p></div>
-            <div className="border border-primary/20 rounded-lg p-5 bg-gradient-to-br from-white to-bg-light dark:from-bg-dark-section/60 dark:to-bg-dark-section hover:border-secondary transition"><strong className="text-primary dark:text-secondary">Build</strong><p className="mt-3 text-sm text-text-muted dark:text-slate-400">Pipelines, infra, transformations, monitoring.</p></div>
-            <div className="border border-primary/20 rounded-lg p-5 bg-gradient-to-br from-white to-bg-light dark:from-bg-dark-section/60 dark:to-bg-dark-section hover:border-secondary transition"><strong className="text-primary dark:text-secondary">Operate</strong><p className="mt-3 text-sm text-text-muted dark:text-slate-400">Docs, alerts, optimization in production.</p></div>
+            <div className="border border-primary/20 rounded-lg p-5 bg-bg-light dark:from-bg-dark-section/60 dark:to-bg-dark-section hover:border-secondary transition"><strong className="text-primary dark:text-secondary">Diagnose</strong><p className="mt-3 text-sm text-text-muted dark:text-slate-400">Audit data flows and failure points.</p></div>
+            <div className="border border-primary/20 rounded-lg p-5 bg-bg-light dark:from-bg-dark-section/60 dark:to-bg-dark-section hover:border-secondary transition"><strong className="text-primary dark:text-secondary">Design</strong><p className="mt-3 text-sm text-text-muted dark:text-slate-400">Target architecture and models.</p></div>
+            <div className="border border-primary/20 rounded-lg p-5 bg-bg-light dark:from-bg-dark-section/60 dark:to-bg-dark-section hover:border-secondary transition"><strong className="text-primary dark:text-secondary">Build</strong><p className="mt-3 text-sm text-text-muted dark:text-slate-400">Pipelines, infra, transformations, monitoring.</p></div>
+            <div className="border border-primary/20 rounded-lg p-5 bg-bg-light dark:from-bg-dark-section/60 dark:to-bg-dark-section hover:border-secondary transition"><strong className="text-primary dark:text-secondary">Operate</strong><p className="mt-3 text-sm text-text-muted dark:text-slate-400">Docs, alerts, optimization in production.</p></div>
           </div>
         </div>
       </section>
