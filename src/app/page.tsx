@@ -1,8 +1,11 @@
 import Link from "next/link";
+import CTAButton from "@/components/CTAButton";
 
 export const metadata = {
   title: "Datadoktor Labs – Data Engineering as a Service",
   description: "We design, build, and operate production-grade data systems that survive reality.",
+  openGraph: { images: ["/og/home.svg"] },
+  twitter: { images: ["/og/home.svg"] },
 };
 
 export default function Home() {
@@ -16,8 +19,8 @@ export default function Home() {
               We design, build, and operate production-grade data pipelines, warehouses, and analytics systems for teams that need their data to actually work.
             </p>
             <div className="mt-6 flex gap-4">
-              <Link href="/contact" className="border px-4 py-2 rounded">Book a consultation</Link>
-              <Link href="/services" className="border px-4 py-2 rounded">See services</Link>
+              <CTAButton href="/contact" event="cta_contact" className="border px-4 py-2 rounded">Book a consultation</CTAButton>
+              <CTAButton href="/services" event="cta_services" className="border px-4 py-2 rounded">See services</CTAButton>
             </div>
           </div>
           <div className="grid grid-cols-2 gap-4">

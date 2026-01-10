@@ -1,8 +1,11 @@
 import PageHeader from "@/components/PageHeader";
+import CTAButton from "@/components/CTAButton";
 
 export const metadata = {
   title: "Services – Datadoktor Labs",
   description: "Data pipelines, warehousing, streaming, analytics engineering, cloud infrastructure, and observability.",
+  openGraph: { images: ["/og/services.svg"] },
+  twitter: { images: ["/og/services.svg"] },
 };
 
 const services = [
@@ -41,6 +44,9 @@ export default function Services() {
           <div key={s.title} className="border rounded p-6 bg-white dark:bg-gray-950">
             <h3 className="text-lg font-semibold">{s.title}</h3>
             <p className="mt-2 text-gray-700 dark:text-gray-300">{s.desc}</p>
+            <div className="mt-4">
+              <CTAButton href="/contact" event={`cta_service_${s.title.toLowerCase().replace(/\s+/g,'_')}`}>Discuss this</CTAButton>
+            </div>
           </div>
         ))}
       </div>

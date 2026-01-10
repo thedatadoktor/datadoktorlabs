@@ -5,6 +5,8 @@ import { getPosts } from "@/lib/blog";
 export const metadata = {
   title: "Blog",
   description: "Insights from building production data systems at Datadoktor Labs.",
+  openGraph: { images: ["/og/blog.svg"] },
+  twitter: { images: ["/og/blog.svg"] },
 };
 
 export default function Blog() {

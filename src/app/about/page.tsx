@@ -3,6 +3,8 @@ import PageHeader from "@/components/PageHeader";
 export const metadata = {
   title: "About – Datadoktor Labs",
   description: "Vision and mission of Datadoktor Labs (DEaaS).",
+  openGraph: { images: ["/og/about.svg"] },
+  twitter: { images: ["/og/about.svg"] },
 };
 
 export default function About() {

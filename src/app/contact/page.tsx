@@ -3,6 +3,8 @@ import PageHeader from "@/components/PageHeader";
 export const metadata = {
   title: "Contact",
   description: "Tell us about your data systems and goals.",
+  openGraph: { images: ["/og/contact.svg"] },
+  twitter: { images: ["/og/contact.svg"] },
 };
 
 export default function Contact() {
