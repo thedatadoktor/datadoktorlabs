@@ -1,3 +1,5 @@
+"use client";
+
 export default function ThemeToggle() {
   const toggle = () => {
     const el = document.documentElement;
