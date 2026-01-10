@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -25,9 +26,21 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+        {/* Persist theme before hydration */}
+        <Script id="theme-init" strategy="beforeInteractive">
+          {`
+            try {
+              const theme = localStorage.getItem('theme');
+              if (theme === 'dark') document.documentElement.classList.add('dark');
+              else if (theme === 'light') document.documentElement.classList.remove('dark');
+            } catch {}
+          `}
+        </Script>
         <Navbar />
         <main className="min-h-screen">{children}</main>
         <Footer />
+        {/* Plausible analytics */}
+        <Script defer data-domain="datadoktorlabs.com" src="https://plausible.io/js/script.js" />
       </body>
     </html>
   );

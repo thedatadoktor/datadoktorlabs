@@ -7,6 +7,7 @@ export default function Navbar() {
       <div className="max-w-6xl mx-auto px-6 h-14 flex items-center justify-between">
         <Link href="/" className="font-semibold">Datadoktor Labs</Link>
         <nav className="flex items-center gap-4">
+          <Link href="/about">About</Link>
           <Link href="/services">Services</Link>
           <Link href="/blog">Blog</Link>
           <Link href="/contact" className="underline">Contact</Link>
