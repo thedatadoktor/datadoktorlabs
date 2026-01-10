@@ -1,0 +1,21 @@
+import { notFound } from "next/navigation";
+import PageHeader from "@/components/PageHeader";
+import { getPost } from "@/lib/blog";
+import { remark } from "remark";
+import html from "remark-html";
+
+export default async function BlogPost({ params }: { params: { slug: string } }) {
+  try {
+    const { data, content } = getPost(params.slug);
+    const processed = await remark().use(html).process(content);
+    const body = processed.toString();
+    return (
+      <>
+        <PageHeader title={(data.title as string) ?? params.slug} />
+        <article className="prose prose-neutral dark:prose-invert max-w-3xl mx-auto px-6" dangerouslySetInnerHTML={{ __html: body }} />
+      </>
+    );
+  } catch {
+    notFound();
+  }
+}
