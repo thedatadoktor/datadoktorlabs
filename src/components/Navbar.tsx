@@ -3,7 +3,7 @@ import ThemeToggle from "./ThemeToggle";
 
 export default function Navbar() {
   return (
-    <header className="border-b border-primary/20 bg-bg-light/95 dark:bg-bg-dark-section/95 backdrop-blur sticky top-0 z-50">
+    <header className="border-b-4 border-primary bg-bg-light/95 dark:bg-bg-dark-section/95 backdrop-blur sticky top-0 z-50">
       <div className="max-w-6xl mx-auto px-6 h-14 flex items-center justify-between">
         <Link href="/" className="font-semibold text-primary text-lg">Datadoktor Labs</Link>
         <nav className="flex items-center gap-6 text-text-primary dark:text-slate-200">

@@ -48,7 +48,7 @@ export default function Services() {
       <PageHeader title="Services" subtitle="Production data systems, engineered for reality" />
       <div className="max-w-6xl mx-auto px-6 py-10 grid gap-6 sm:grid-cols-2">
         {services.map((s) => (
-          <div key={s.title} className="border border-primary/20 rounded-lg p-6 bg-bg-light dark:bg-bg-dark-section/60 hover:border-secondary transition">
+          <div key={s.title} className="border-4 border-primary p-6 bg-bg-light dark:bg-bg-dark-section/60 hover:border-secondary transition">
             <h3 className="text-lg font-semibold text-primary dark:text-secondary">{s.title}</h3>
             <p className="mt-2 text-text-primary dark:text-slate-300">{s.desc}</p>
             <div className="mt-4 flex gap-3">
