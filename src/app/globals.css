@@ -2,15 +2,15 @@
 
 :root {
   /* Primary: Cloud Navy */
-  --color-primary: #0a1f35;
+  --color-primary: #1E3A5F;
   /* Secondary: Clean Teal */
-  --color-secondary: #1a9d8f;
+  --color-secondary: #2DD4BF;
   /* Accent: Soft Amber */
-  --color-accent: #d97706;
+  --color-accent: #FDBA3B;
   /* Light mode */
-  --color-bg-light: #f8fafc;
-  --color-text-primary: #0f172a;
-  --color-text-muted: #475569;
+  --color-bg-light: #f3f4f6;
+  --color-text-primary: #1f2937;
+  --color-text-muted: #6b7280;
   /* Dark mode */
   --color-bg-dark-section: #16263F;
 }
