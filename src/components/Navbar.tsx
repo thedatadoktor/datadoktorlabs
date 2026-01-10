@@ -11,7 +11,7 @@ export default function Navbar() {
           <Link href="/services" className="hover:text-secondary transition">Services</Link>
           <Link href="/case-studies" className="hover:text-secondary transition">Case Studies</Link>
           <Link href="/blog" className="hover:text-secondary transition">Blog</Link>
-          <Link href="/contact" className="bg-secondary text-primary px-4 py-2 rounded font-medium hover:bg-accent transition">Contact</Link>
+          <Link href="/contact" className="bg-secondary text-black px-4 py-2 rounded font-medium hover:bg-accent transition">Contact</Link>
 
         </nav>
       </div>

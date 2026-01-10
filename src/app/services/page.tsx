@@ -3,7 +3,7 @@ import CTAButton from "@/components/CTAButton";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Services – Datadoktor Labs",
+  title: "Services - Datadoktor Labs",
   description: "Data pipelines, warehousing, streaming, analytics engineering, cloud infrastructure, and observability.",
   openGraph: { images: ["/og/services.svg"] },
   twitter: { images: ["/og/services.svg"] },

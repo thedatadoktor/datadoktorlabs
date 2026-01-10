@@ -1,7 +1,7 @@
 import PageHeader from "@/components/PageHeader";
 
 export const metadata = {
-  title: "Why – Datadoktor Labs",
+  title: "Why - Datadoktor Labs",
   description: "Production code. No slide decks. Systems that survive reality.",
   openGraph: { images: ["/og/why.svg"] },
   twitter: { images: ["/og/why.svg"] },
@@ -15,7 +15,7 @@ export default function Why() {
         <section>
           <h2 className="text-xl font-semibold text-primary dark:text-secondary">Problem</h2>
           <p className="mt-2 text-text-primary dark:text-slate-300">
-            Most teams don’t lack data — they lack dependable systems. Silent failures, disagreeing dashboards, and undocumented transformations bog down decisions.
+            Most teams don't lack data - they lack dependable systems. Silent failures, disagreeing dashboards, and undocumented transformations bog down decisions.
           </p>
         </section>
         <section>
@@ -30,7 +30,7 @@ export default function Why() {
         <section>
           <h2 className="text-xl font-semibold text-primary dark:text-secondary">Outcome</h2>
           <p className="mt-2 text-text-primary dark:text-slate-300">
-            We deliver working pipelines, documented systems, reproducible infrastructure, and measurable improvements — the foundation for Datadoktor Hub.
+            We deliver working pipelines, documented systems, reproducible infrastructure, and measurable improvements - solving real data engineering challenges.
           </p>
         </section>
       </div>

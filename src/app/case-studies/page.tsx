@@ -1,7 +1,7 @@
 import PageHeader from "@/components/PageHeader";
 
 export const metadata = {
-  title: "Case Studies – Datadoktor Labs",
+  title: "Case Studies - Datadoktor Labs",
   description: "Selected engagements showcasing reliable, scalable data systems.",
   openGraph: { images: ["/og/case-studies.svg"] },
   twitter: { images: ["/og/case-studies.svg"] },

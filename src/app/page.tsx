@@ -2,7 +2,7 @@ import Link from "next/link";
 import CTAButton from "@/components/CTAButton";
 
 export const metadata = {
-  title: "Datadoktor Labs – Data Engineering as a Service",
+  title: "Datadoktor Labs - Data Engineering as a Service",
   description: "We design, build, and operate production-grade data systems that survive reality.",
   openGraph: { images: ["/og/home.svg"] },
   twitter: { images: ["/og/home.svg"] },
@@ -14,13 +14,13 @@ export default function Home() {
       <section className="bg-gradient-to-b from-bg-light via-bg-light to-bg-light dark:from-bg-dark-section dark:to-bg-dark-section/80">
         <div className="max-w-6xl mx-auto px-6 py-20 grid gap-8 sm:grid-cols-2 items-center">
           <div>
-            <h1 className="text-4xl sm:text-5xl font-bold text-primary dark:text-secondary">Data Engineering as a Service</h1>
+            <h1 className="text-4xl sm:text-5xl font-bold text-secondary">Data Engineering as a Service</h1>
             <p className="mt-4 text-lg text-text-primary dark:text-slate-300">
               We design, build, and operate production-grade data pipelines, warehouses, and analytics systems for teams that need their data to actually work.
             </p>
             <div className="mt-8 flex gap-4">
               <CTAButton href="/contact" event="cta_contact">Book a consultation</CTAButton>
-              <CTAButton href="/services" event="cta_services" className="border-2 border-secondary text-secondary px-4 py-2 rounded font-medium hover:bg-secondary hover:text-primary transition">See services</CTAButton>
+              <CTAButton href="/services" event="cta_services" className="bg-primary text-white px-4 py-2 rounded font-medium hover:bg-secondary transition">See services</CTAButton>
             </div>
           </div>
           <div className="grid grid-cols-2 gap-6">
