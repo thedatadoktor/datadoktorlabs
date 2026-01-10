@@ -16,8 +16,24 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Datadoktor Labs – Data Engineering as a Service",
+  metadataBase: new URL("https://datadoktorlabs.com"),
+  title: {
+    default: "Datadoktor Labs – Data Engineering as a Service",
+    template: "%s – Datadoktor Labs",
+  },
   description: "Production-grade data pipelines, warehouses and analytics systems.",
+  openGraph: {
+    type: "website",
+    url: "https://datadoktorlabs.com",
+    title: "Datadoktor Labs – Data Engineering as a Service",
+    description: "We design, build, and operate production-grade data systems that survive reality.",
+    siteName: "Datadoktor Labs",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Datadoktor Labs – Data Engineering as a Service",
+    description: "We design, build, and operate production-grade data systems that survive reality.",
+  },
 };
 
 export default function RootLayout({

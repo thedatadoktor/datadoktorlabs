@@ -1,5 +1,10 @@
 import PageHeader from "@/components/PageHeader";
 
+export const metadata = {
+  title: "Contact",
+  description: "Tell us about your data systems and goals.",
+};
+
 export default function Contact() {
   return (
     <>

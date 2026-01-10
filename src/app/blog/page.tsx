@@ -2,6 +2,11 @@ import Link from "next/link";
 import PageHeader from "@/components/PageHeader";
 import { getPosts } from "@/lib/blog";
 
+export const metadata = {
+  title: "Blog",
+  description: "Insights from building production data systems at Datadoktor Labs.",
+};
+
 export default function Blog() {
   const posts = getPosts();
   return (

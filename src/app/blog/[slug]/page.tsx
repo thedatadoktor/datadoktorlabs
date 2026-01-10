@@ -1,4 +1,5 @@
 import { notFound } from "next/navigation";
+import type { Metadata } from "next";
 import PageHeader from "@/components/PageHeader";
 import { getPost } from "@/lib/blog";
 import { remark } from "remark";
@@ -17,5 +18,17 @@ export default async function BlogPost({ params }: { params: { slug: string } })
     );
   } catch {
     notFound();
+  }
+}
+
+export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
+  try {
+    const { data } = getPost(params.slug);
+    return {
+      title: (data.title as string) ?? params.slug,
+      description: (data.description as string) ?? "Datadoktor Labs blog post",
+    };
+  } catch {
+    return { title: params.slug };
   }
 }
