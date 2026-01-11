@@ -31,7 +31,7 @@ export default function MachineLearning() {
             </div>
             <div className="p-4 bg-bg-light dark:bg-bg-dark-section rounded border-l-4 border-secondary">
               <h3 className="font-semibold text-base md:text-lg text-primary dark:text-secondary">Credit Scoring</h3>
-              <p className="mt-2 text-sm md:text-base text-text-primary dark:text-slate-300">Alternative credit models using transaction history, behavioral data, and mobile patterns for Nigerian markets</p>
+              <p className="mt-2 text-sm md:text-base text-text-primary dark:text-slate-300">Alternative credit models using transaction history, behavioral data, and mobile patterns for emerging markets</p>
             </div>
             <div className="p-4 bg-bg-light dark:bg-bg-dark-section rounded border-l-4 border-secondary">
               <h3 className="font-semibold text-base md:text-lg text-primary dark:text-secondary">Recommendation Systems</h3>

@@ -3,7 +3,7 @@ import CTAButton from "@/components/CTAButton";
 
 export const metadata = {
   title: "Data Governance & Compliance - Datadoktor Labs",
-  description: "GDPR, NDPR compliance, data inventories, access control, and security documentation for regulatory readiness.",
+  description: "GDPR, SOC 2 compliance, data inventories, access control, and security documentation for regulatory readiness.",
 };
 
 export default function Governance() {
@@ -14,7 +14,7 @@ export default function Governance() {
         <section>
           <h2 className="text-xl md:text-2xl font-semibold text-primary dark:text-secondary">What We Build</h2>
           <p className="mt-3 md:mt-4 text-base md:text-lg text-text-primary dark:text-slate-300">
-            We help teams meet regulatory and investor requirements through structured data governance — GDPR readiness, NDPR compliance, data inventories, access policies, and security documentation.
+            We help teams meet regulatory and investor requirements through structured data governance: GDPR compliance, data inventories, access policies, and security documentation.
           </p>
         </section>
 
@@ -26,8 +26,8 @@ export default function Governance() {
               <p className="mt-2 text-sm md:text-base text-text-primary dark:text-slate-300">Data mapping, consent management, right to erasure automation, DPIAs, and compliance documentation for EU operations</p>
             </div>
             <div className="p-4 bg-bg-light dark:bg-bg-dark-section rounded border-l-4 border-secondary">
-              <h3 className="font-semibold text-base md:text-lg text-primary dark:text-secondary">NDPR Compliance (Nigeria)</h3>
-              <p className="mt-2 text-sm md:text-base text-text-primary dark:text-slate-300">Nigeria Data Protection Regulation adherence, data processing records, breach notification systems</p>
+              <h3 className="font-semibold text-base md:text-lg text-primary dark:text-secondary">Regional Data Privacy Compliance</h3>
+              <p className="mt-2 text-sm md:text-base text-text-primary dark:text-slate-300">Support for regional data protection regulations, data processing records, and breach notification systems</p>
             </div>
             <div className="p-4 bg-bg-light dark:bg-bg-dark-section rounded border-l-4 border-secondary">
               <h3 className="font-semibold text-base md:text-lg text-primary dark:text-secondary">DPIA Assessments</h3>
@@ -60,13 +60,6 @@ export default function Governance() {
             <li>Security documentation bundles</li>
             <li>Training materials for teams</li>
           </ul>
-        </section>
-
-        <section>
-          <h2 className="text-xl md:text-2xl font-semibold text-primary dark:text-secondary">Nigeria-Specific Focus</h2>
-          <p className="mt-3 md:mt-4 text-base md:text-lg text-text-primary dark:text-slate-300">
-            We understand Nigerian regulatory context including CBN IT and data compliance requirements for fintech projects, ensuring systems are audit-ready for local regulators.
-          </p>
         </section>
 
         <div className="pt-4 flex flex-col sm:flex-row gap-3">

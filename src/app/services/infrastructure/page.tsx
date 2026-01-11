@@ -14,7 +14,7 @@ export default function Infrastructure() {
         <section>
           <h2 className="text-xl md:text-2xl font-semibold text-primary dark:text-secondary">What We Build</h2>
           <p className="mt-3 md:mt-4 text-base md:text-lg text-text-primary dark:text-slate-300">
-            We provision secure, cost-aware cloud data platforms with Infrastructure-as-Code — reproducible environments with least-privilege access, encryption, and budget controls for Nigerian and European operations.
+            We provision secure, cost aware cloud data platforms with Infrastructure as Code: reproducible environments with least privilege access, encryption, and budget controls for global operations.
           </p>
         </section>
 
@@ -51,12 +51,12 @@ export default function Infrastructure() {
         <section>
           <h2 className="text-xl md:text-2xl font-semibold text-primary dark:text-secondary">Our Approach</h2>
           <ul className="mt-3 md:mt-4 list-disc pl-5 space-y-2 text-base md:text-lg text-text-primary dark:text-slate-300">
-            <li>Infrastructure-as-code with Terraform, Pulumi, or CloudFormation</li>
-            <li>Least-privilege IAM policies and secret management</li>
+            <li>Infrastructure as code with Terraform, Pulumi, or CloudFormation</li>
+            <li>Least privilege IAM policies and secret management</li>
             <li>Cost allocation tags and budget alerting</li>
-            <li>Multi-environment strategies (dev/staging/prod)</li>
-            <li>Network isolation and encryption at rest/in-transit</li>
-            <li>Nigerian cost-awareness with cloud optimization</li>
+            <li>Multi environment strategies (dev/staging/prod)</li>
+            <li>Network isolation and encryption at rest/in transit</li>
+            <li>Cost aware optimization that respects your budget</li>
           </ul>
         </section>
 

@@ -47,17 +47,17 @@ const services = [
   },
   {
     title: "Data Governance & Compliance",
-    desc: "GDPR and NDPR compliance with data inventories, access control, and retention policies.",
+    desc: "GDPR, SOC 2, and industry compliance with data inventories, access control, and retention policies.",
     href: "/services/governance",
   },
   {
     title: "Agri-Data Solutions",
-    desc: "Agricultural data systems for Nigerian farms with yield prediction and market intelligence.",
+    desc: "Agricultural data systems with yield prediction, market intelligence, and farm management.",
     href: "/services/agri",
   },
   {
     title: "Custom Automation",
-    desc: "Workflow automation and API integrations with Nigerian payment gateways and business tools.",
+    desc: "Workflow automation and API integrations with payment gateways, ERPs, and business tools.",
     href: "/services/automation",
   },
 ];

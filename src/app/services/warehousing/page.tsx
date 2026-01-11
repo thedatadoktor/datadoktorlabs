@@ -39,7 +39,7 @@ export default function Warehousing() {
             </div>
             <div className="p-4 bg-bg-light dark:bg-bg-dark-section rounded border-l-4 border-secondary">
               <h3 className="font-semibold text-base md:text-lg text-primary dark:text-secondary">Cost Optimization</h3>
-              <p className="mt-2 text-sm md:text-base text-text-primary dark:text-slate-300">Storage tier optimization, query performance tuning, and resource scheduling for Nigerian budgets</p>
+              <p className="mt-2 text-sm md:text-base text-text-primary dark:text-slate-300">Storage tier optimization, query performance tuning, and resource scheduling that respects your budget</p>
             </div>
             <div className="p-4 bg-bg-light dark:bg-bg-dark-section rounded border-l-4 border-secondary">
               <h3 className="font-semibold text-base md:text-lg text-primary dark:text-secondary">Documentation & Governance</h3>
@@ -51,12 +51,12 @@ export default function Warehousing() {
         <section>
           <h2 className="text-xl md:text-2xl font-semibold text-primary dark:text-secondary">Our Approach</h2>
           <ul className="mt-3 md:mt-4 list-disc pl-5 space-y-2 text-base md:text-lg text-text-primary dark:text-slate-300">
-            <li>Dimensional modeling or one-big-table patterns as needed</li>
-            <li>Column-level documentation and data dictionaries</li>
+            <li>Dimensional modeling or one big table patterns as needed</li>
+            <li>Column level documentation and data dictionaries</li>
             <li>Incremental model builds with version control</li>
             <li>Storage tier optimization (hot/warm/cold)</li>
             <li>Query performance analysis and indexing strategies</li>
-            <li>Cost-aware architectures for Nigerian markets</li>
+            <li>Cost aware architectures that fit your needs</li>
           </ul>
         </section>
 

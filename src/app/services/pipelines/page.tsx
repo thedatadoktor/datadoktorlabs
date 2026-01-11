@@ -46,7 +46,7 @@ export default function Pipelines() {
             <li>Idempotent ingestion with checkpointing and retry logic</li>
             <li>Schema validation and evolution at ingestion boundaries</li>
             <li>Clear SLA definition with alerting on breaches</li>
-            <li>Backfill strategies that don't block production flows</li>
+            <li>Backfill strategies that don&apos;t block production flows</li>
             <li>Cost-aware scheduling and resource allocation</li>
             <li>Pipeline monitoring with lineage tracking</li>
             <li>Full documentation and runbooks</li>

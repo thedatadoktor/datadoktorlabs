@@ -3,18 +3,18 @@ import CTAButton from "@/components/CTAButton";
 
 export const metadata = {
   title: "Agri-Data Solutions - Datadoktor Labs",
-  description: "Farmer registration systems, crop yield prediction, satellite & IoT ingestion, and market intelligence for Nigerian agriculture.",
+  description: "Farmer registration systems, crop yield prediction, satellite and IoT ingestion, and market intelligence for agriculture.",
 };
 
 export default function AgriData() {
   return (
     <>
-      <PageHeader title="Agri-Data Solutions" subtitle="Data systems for Nigerian agriculture" />
+      <PageHeader title="Agri-Data Solutions" subtitle="Data systems for modern agriculture" />
       <div className="max-w-4xl mx-auto px-4 md:px-6 py-10 md:py-16 space-y-8 md:space-y-10">
         <section>
-          <h2 className="text-xl md:text-2xl font-semibold text-primary dark:text-secondary">Nigeria-Focused Agriculture Tech</h2>
+          <h2 className="text-xl md:text-2xl font-semibold text-primary dark:text-secondary">Agriculture Data Systems</h2>
           <p className="mt-3 md:mt-4 text-base md:text-lg text-text-primary dark:text-slate-300">
-            Nigerian agriculture generates massive data — farmer records, crop cycles, weather patterns, market prices, supply chains. Most of it is trapped in spreadsheets, disconnected apps, or lost entirely.
+            Agriculture generates massive data: farmer records, crop cycles, weather patterns, market prices, supply chains. Most of it is trapped in spreadsheets, disconnected apps, or lost entirely.
           </p>
           <p className="mt-3 text-base md:text-lg text-text-primary dark:text-slate-300">
             We build data systems that turn this fragmented information into operational intelligence for agribusinesses, cooperatives, and development programs.
@@ -45,8 +45,8 @@ export default function AgriData() {
               <p className="mt-2 text-sm md:text-base text-text-primary dark:text-slate-300">Real-time market data aggregation, price trend analysis, and demand forecasting for better trading decisions</p>
             </div>
             <div className="p-4 bg-bg-light dark:bg-bg-dark-section rounded border-l-4 border-secondary">
-              <h3 className="font-semibold text-base md:text-lg text-primary dark:text-secondary">Weather-Linked Forecasting</h3>
-              <p className="mt-2 text-sm md:text-base text-text-primary dark:text-slate-300">Integration with Nigerian meteorological data for planting advice, risk assessment, and insurance claims</p>
+              <h3 className="font-semibold text-base md:text-lg text-primary dark:text-secondary">Weather Linked Forecasting</h3>
+              <p className="mt-2 text-sm md:text-base text-text-primary dark:text-slate-300">Integration with meteorological data for planting advice, risk assessment, and insurance claims</p>
             </div>
           </div>
         </section>

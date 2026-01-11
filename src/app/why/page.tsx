@@ -15,27 +15,27 @@ export default function Why() {
         <section>
           <h2 className="text-xl md:text-2xl font-semibold text-primary dark:text-secondary">The Problem</h2>
           <p className="mt-3 md:mt-4 text-base md:text-lg text-text-primary dark:text-slate-300">
-            Most teams don't lack data — they lack dependable systems. Silent failures, disagreeing dashboards, and undocumented transformations bog down decisions.
+            Most teams don't lack data. They lack dependable systems. Silent failures, disagreeing dashboards, and undocumented transformations bog down decisions.
           </p>
           <p className="mt-3 text-base md:text-lg text-text-primary dark:text-slate-300">
-            Nigerian businesses face this even harder: unreliable data sources, fragmented platforms, regulatory constraints, and infrastructure limits.
+            Businesses everywhere face unreliable data sources, fragmented platforms, regulatory constraints, and infrastructure limits.
           </p>
         </section>
 
         <section>
-          <h2 className="text-xl md:text-2xl font-semibold text-primary dark:text-secondary">Nigeria-First Positioning</h2>
+          <h2 className="text-xl md:text-2xl font-semibold text-primary dark:text-secondary">Our Global Approach</h2>
           <p className="mt-3 md:mt-4 text-base md:text-lg text-text-primary dark:text-slate-300">
-            Datadoktor Labs is designed for Nigerian realities:
+            Datadoktor Labs is designed for real world operations:
           </p>
           <ul className="mt-3 list-disc pl-5 space-y-2 text-base md:text-lg text-text-primary dark:text-slate-300">
-            <li>Paystack, Flutterwave, Monnify, Remita integrations</li>
-            <li>NDPR compliance by default</li>
-            <li>CBN data standards for fintech projects</li>
-            <li>Power BI–friendly analytics</li>
-            <li>Cost-aware cloud architectures</li>
+            <li>Integration with any payment gateway or business system</li>
+            <li>GDPR and regional data privacy compliance</li>
+            <li>Industry specific regulatory standards</li>
+            <li>Tool agnostic analytics that work with your BI platform</li>
+            <li>Cost aware cloud architectures</li>
           </ul>
           <p className="mt-3 text-base md:text-lg text-text-primary dark:text-slate-300">
-            We understand unreliable data sources, fragmented platforms, regulatory constraints, and infrastructure limits. And we engineer around them.
+            We understand the challenges of fragmented data landscapes and regulatory complexity. And we engineer around them.
           </p>
         </section>
 
@@ -64,18 +64,18 @@ export default function Why() {
             <li>Boring to operate; exciting is for demos, not production</li>
             <li>Predictable behavior and measurable reliability</li>
             <li>Documented by default; no hidden magic</li>
-            <li>No vendor lock-in evangelism; fit tools to problems</li>
-            <li>Engineering-first mindset — not slide decks as deliverables</li>
+            <li>No vendor lock in evangelism; fit tools to problems</li>
+            <li>Engineering first mindset, not slide decks as deliverables</li>
           </ul>
         </section>
 
         <section>
           <h2 className="text-xl md:text-2xl font-semibold text-primary dark:text-secondary">What You Get</h2>
           <p className="mt-3 md:mt-4 text-base md:text-lg text-text-primary dark:text-slate-300">
-            We deliver working pipelines, documented systems, reproducible infrastructure, and measurable improvements — solving real data engineering challenges.
+            We deliver working pipelines, documented systems, reproducible infrastructure, and measurable improvements. Real solutions to real data engineering challenges.
           </p>
           <p className="mt-3 text-base md:text-lg text-text-primary dark:text-slate-300">
-            Not slide decks. Not vendor pitches. Not undocumented scripts. Production systems that survive real-world growth.
+            Not slide decks. Not vendor pitches. Not undocumented scripts. Production systems that survive real world growth.
           </p>
         </section>
       </div>

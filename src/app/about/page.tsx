@@ -2,7 +2,7 @@ import PageHeader from "@/components/PageHeader";
 
 export const metadata = {
   title: "About - Datadoktor Labs",
-  description: "Reliable Data Systems. Built for Reality. Nigeria-first, EU-ready data engineering, analytics, and machine learning consultancy.",
+  description: "Reliable Data Systems. Built for Reality. A global data engineering, analytics, and machine learning consultancy.",
   openGraph: { images: ["/og/about.svg"] },
   twitter: { images: ["/og/about.svg"] },
 };
@@ -22,24 +22,24 @@ export default function About() {
         <section>
           <h2 className="text-xl md:text-2xl font-semibold text-primary dark:text-secondary">Vision</h2>
           <p className="mt-3 md:mt-4 text-base md:text-lg text-text-primary dark:text-slate-300">
-            To become a leading African–European data powerhouse, combining engineering precision, analytics insight, machine intelligence, and regulatory trust.
+            To become a leading global data consultancy, combining engineering precision, analytics insight, machine intelligence, and regulatory trust.
           </p>
         </section>
 
         <section>
           <h2 className="text-xl md:text-2xl font-semibold text-primary dark:text-secondary">What We Are Building</h2>
           <p className="mt-3 md:mt-4 text-base md:text-lg text-text-primary dark:text-slate-300">
-            Datadoktor Labs is a Nigeria-first, EU-ready data engineering, analytics, and machine learning consultancy. We design, build, and operate production-grade data systems for organizations that need their data to actually work — not just look good in demos.
+            Datadoktor Labs is a global data engineering, analytics, and machine learning consultancy. We design, build, and operate production-grade data systems for organizations that need their data to actually work, not just look good in demos.
           </p>
           <p className="mt-3 text-base md:text-lg text-text-primary dark:text-slate-300">
-            We serve Nigerian businesses and institutions while building toward long-term African–European operations with compliance-ready architecture and global engineering standards.
+            We serve businesses and institutions worldwide with compliance ready architecture and global engineering standards.
           </p>
         </section>
 
         <section>
           <h2 className="text-xl md:text-2xl font-semibold text-primary dark:text-secondary">Why Datadoktor Labs Exists</h2>
           <p className="mt-3 md:mt-4 text-base md:text-lg text-text-primary dark:text-slate-300">
-            Nigeria's economy runs on spreadsheets, disconnected tools, manual reconciliation, and fragile reporting. As companies grow, this breaks:
+            Most organizations run on spreadsheets, disconnected tools, manual reconciliation, and fragile reporting. As companies grow, this breaks:
           </p>
           <ul className="mt-3 list-disc pl-5 space-y-2 text-base md:text-lg text-text-primary dark:text-slate-300">
             <li>Fraud becomes harder to detect</li>
@@ -48,7 +48,7 @@ export default function About() {
             <li>Compliance becomes risky</li>
           </ul>
           <p className="mt-3 text-base md:text-lg text-text-primary dark:text-slate-300">
-            Datadoktor Labs exists to turn this chaos into engineered systems that survive real-world growth.
+            Datadoktor Labs exists to turn this chaos into engineered systems that survive real world growth.
           </p>
         </section>
 
@@ -124,10 +124,10 @@ export default function About() {
         <section>
           <h2 className="text-xl md:text-2xl font-semibold text-primary dark:text-secondary">What Makes Us Different</h2>
           <ul className="mt-3 md:mt-4 list-disc pl-5 space-y-2 text-base md:text-lg text-text-primary dark:text-slate-300">
-            <li>Engineering-first mindset — not slide decks as deliverables</li>
-            <li>Nigeria-first positioning with Paystack, Flutterwave, Monnify, Remita integrations</li>
-            <li>NDPR compliance by default</li>
-            <li>Cost-aware cloud architectures for Nigerian realities</li>
+            <li>Engineering first mindset, not slide decks as deliverables</li>
+            <li>Flexible integration with any payment gateway or business tool</li>
+            <li>GDPR and data privacy compliance by default</li>
+            <li>Cost aware cloud architectures that respect your budget</li>
             <li>No vendor lock-in evangelism</li>
             <li>Working pipelines, documented systems, reproducible infrastructure</li>
           </ul>
@@ -137,12 +137,12 @@ export default function About() {
           <h2 className="text-xl md:text-2xl font-semibold text-primary dark:text-secondary">Compliance & Certifications Roadmap</h2>
           <div className="mt-3 md:mt-4 space-y-4">
             <div>
-              <h3 className="font-semibold text-base md:text-lg text-primary dark:text-secondary">Company-level:</h3>
+              <h3 className="font-semibold text-base md:text-lg text-primary dark:text-secondary">Company level:</h3>
               <ul className="mt-2 list-disc pl-5 space-y-1 text-base md:text-lg text-text-primary dark:text-slate-300">
-                <li>NDPR (mandatory, Nigeria)</li>
                 <li>ISO 27001</li>
-                <li>GDPR readiness</li>
-                <li>CBN IT & data compliance (fintech projects)</li>
+                <li>GDPR compliance</li>
+                <li>SOC 2 Type II</li>
+                <li>Industry specific compliance as needed</li>
               </ul>
             </div>
             <div>
@@ -150,9 +150,9 @@ export default function About() {
               <ul className="mt-2 list-disc pl-5 space-y-1 text-base md:text-lg text-text-primary dark:text-slate-300">
                 <li>Data engineering (dbt, Airflow, Spark)</li>
                 <li>Analytics (Power BI, Looker, Metabase)</li>
-                <li>Machine learning & AI</li>
+                <li>Machine learning and AI</li>
                 <li>Cloud platforms (AWS, Azure, GCP)</li>
-                <li>Security & compliance</li>
+                <li>Security and compliance</li>
               </ul>
             </div>
           </div>

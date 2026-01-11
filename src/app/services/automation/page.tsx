@@ -27,7 +27,7 @@ export default function Automation() {
             </div>
             <div className="p-4 bg-bg-light dark:bg-bg-dark-section rounded border-l-4 border-secondary">
               <h3 className="font-semibold text-base md:text-lg text-primary dark:text-secondary">API-Based Integrations</h3>
-              <p className="mt-2 text-sm md:text-base text-text-primary dark:text-slate-300">Connect Paystack, Flutterwave, Monnify, Remita, ERPs, CRMs, and custom internal systems</p>
+              <p className="mt-2 text-sm md:text-base text-text-primary dark:text-slate-300">Connect payment gateways, ERPs, CRMs, and custom internal systems</p>
             </div>
             <div className="p-4 bg-bg-light dark:bg-bg-dark-section rounded border-l-4 border-secondary">
               <h3 className="font-semibold text-base md:text-lg text-primary dark:text-secondary">Reporting Automation</h3>
