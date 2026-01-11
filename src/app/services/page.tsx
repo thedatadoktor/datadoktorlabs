@@ -46,14 +46,14 @@ export default function Services() {
   return (
     <>
       <PageHeader title="Services" subtitle="Production data systems, engineered for reality" />
-      <div className="max-w-6xl mx-auto px-6 py-10 grid gap-6 sm:grid-cols-2">
+      <div className="max-w-6xl mx-auto px-4 md:px-6 py-8 md:py-10 grid gap-4 md:gap-6 sm:grid-cols-2">
         {services.map((s) => (
-          <div key={s.title} className="border-4 border-primary p-6 bg-bg-light dark:bg-bg-dark-section/60 hover:border-secondary transition">
-            <h3 className="text-lg font-semibold text-primary dark:text-secondary">{s.title}</h3>
-            <p className="mt-2 text-text-primary dark:text-slate-300">{s.desc}</p>
-            <div className="mt-4 flex gap-3">
-              <Link href={s.href} className="text-sm text-secondary hover:text-accent font-medium transition">Learn more →</Link>
-              <CTAButton href="/contact" event={`cta_service_${s.title.toLowerCase().replace(/\s+/g,'_')}`}>Discuss</CTAButton>
+          <div key={s.title} className="border-4 border-primary p-4 md:p-6 bg-bg-light dark:bg-bg-dark-section/60 hover:border-secondary transition">
+            <h3 className="text-base md:text-lg font-semibold text-primary dark:text-secondary">{s.title}</h3>
+            <p className="mt-2 text-sm md:text-base text-text-primary dark:text-slate-300">{s.desc}</p>
+            <div className="mt-4 flex flex-col sm:flex-row gap-3">
+              <Link href={s.href} className="text-sm text-secondary hover:text-accent font-medium transition text-center sm:text-left">Learn more →</Link>
+              <CTAButton href="/contact" event={`cta_service_${s.title.toLowerCase().replace(/\s+/g,'_')}`} className="bg-secondary text-black px-4 py-2 rounded font-medium hover:bg-accent transition text-center">Discuss</CTAButton>
             </div>
           </div>
         ))}

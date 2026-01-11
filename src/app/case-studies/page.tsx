@@ -38,16 +38,16 @@ export default function CaseStudies() {
   return (
     <>
       <PageHeader title="Case Studies" subtitle="Patterns that survive production" />
-      <div className="max-w-6xl mx-auto px-6 py-10 grid gap-6 sm:grid-cols-2">
+      <div className="max-w-6xl mx-auto px-4 md:px-6 py-8 md:py-10 grid gap-4 md:gap-6 sm:grid-cols-2">
         {cases.map((c) => (
-          <article key={c.title} className="border-4 border-primary p-6 bg-bg-light dark:bg-bg-dark-section/60 hover:border-secondary transition">
-            <div className="flex items-center justify-between">
-              <h3 className="text-lg font-semibold text-primary dark:text-secondary">{c.title}</h3>
+          <article key={c.title} className="border-4 border-primary p-4 md:p-6 bg-bg-light dark:bg-bg-dark-section/60 hover:border-secondary transition">
+            <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2">
+              <h3 className="text-base md:text-lg font-semibold text-primary dark:text-secondary">{c.title}</h3>
               <span className="text-xs text-text-muted dark:text-slate-400">{c.sector}</span>
             </div>
-            <p className="mt-2 text-text-primary dark:text-slate-300">{c.summary}</p>
-            <p className="mt-2 text-sm text-text-muted dark:text-slate-400">Impact: {c.impact}</p>
-            <div className="mt-4 flex gap-4 text-sm">
+            <p className="mt-2 text-sm md:text-base text-text-primary dark:text-slate-300">{c.summary}</p>
+            <p className="mt-2 text-xs md:text-sm text-text-muted dark:text-slate-400">Impact: {c.impact}</p>
+            <div className="mt-4 flex flex-wrap gap-3 md:gap-4 text-xs md:text-sm">
               {c.github && (
                 <a href={c.github} target="_blank" rel="noopener noreferrer" className="text-secondary hover:text-accent transition">
                   GitHub →

@@ -22,7 +22,7 @@ export default function CTAButton({ href, children, event = "CTA Click", props, 
   };
 
   return (
-    <Link href={href} onClick={onClick} className={className ?? "bg-secondary text-black px-4 py-2 rounded font-medium hover:bg-accent transition"}>
+    <Link href={href} onClick={onClick} className={className ?? "bg-secondary text-black px-4 py-2 rounded font-medium hover:bg-accent transition text-center block"}>
       {children}
     </Link>
   );
