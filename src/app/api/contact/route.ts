@@ -1,6 +1,8 @@
 import { Resend } from "resend";
 import { NextResponse } from "next/server";
 
+export const runtime = 'nodejs';
+
 export async function POST(req: Request) {
   try {
     const apiKey = process.env.RESEND_API_KEY;
@@ -80,7 +82,11 @@ export async function POST(req: Request) {
       attachments: attachments.length > 0 ? attachments : undefined,
     });
 
-    return NextResponse.redirect(new URL("/contact?sent=true", req.url));
+    // Get the origin from the request
+    const url = new URL(req.url);
+    const origin = url.origin;
+    
+    return NextResponse.redirect(`${origin}/contact?sent=true`, 303);
   } catch (error) {
     console.error('Contact form error:', error);
     return NextResponse.json({ error: "Failed to send email" }, { status: 500 });

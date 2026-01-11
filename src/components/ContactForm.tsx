@@ -1,7 +1,7 @@
 "use client";
 
 import { useSearchParams } from "next/navigation";
-import { Suspense } from "react";
+import { Suspense, useState } from "react";
 
 function SuccessMessage() {
   const searchParams = useSearchParams();
@@ -10,27 +10,48 @@ function SuccessMessage() {
   if (!sent) return null;
 
   return (
-    <div className="mb-6 p-4 bg-secondary/20 border-2 border-secondary rounded">
-      <h3 className="font-semibold text-secondary mb-2">✓ Submission Received</h3>
-      <p className="text-sm md:text-base text-text-primary dark:text-slate-300">
-        Thank you for sharing your project details. We&apos;ll review your submission and get back to you within 1-2 business days.
+    <div className="mb-6 p-6 md:p-8 bg-secondary/20 border-3 border-secondary rounded text-center">
+      <div className="text-5xl mb-4">✓</div>
+      <h3 className="text-xl md:text-2xl font-semibold text-secondary mb-3">Submission Received!</h3>
+      <p className="text-base md:text-lg text-text-primary dark:text-slate-300 mb-4">
+        Thank you for sharing your project details with us.
+      </p>
+      <p className="text-sm md:text-base text-text-muted dark:text-slate-400">
+        We&apos;ll review your submission and get back to you within 1-2 business days.
       </p>
     </div>
   );
 }
 
 export default function ContactForm() {
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    setIsSubmitting(true);
+    // Form will submit normally, loading overlay stays visible until redirect
+  };
+
   return (
     <>
       <Suspense fallback={null}>
         <SuccessMessage />
       </Suspense>
+
+      {isSubmitting && (
+        <div className="fixed inset-0 bg-bg-dark/80 backdrop-blur-sm z-50 flex items-center justify-center">
+          <div className="bg-bg-dark-section border-3 border-secondary p-8 rounded-lg text-center max-w-md">
+            <div className="animate-spin rounded-full h-16 w-16 border-b-3 border-secondary mx-auto mb-4"></div>
+            <h3 className="text-xl font-semibold text-secondary mb-2">Submitting Your Project Details</h3>
+            <p className="text-text-muted">Please wait while we process your submission...</p>
+          </div>
+        </div>
+      )}
       
       <p className="mb-6 text-base md:text-lg text-text-primary dark:text-slate-300">
         Share details about your current data landscape and what you&apos;re trying to achieve. The more specific you are, the better we can help.
       </p>
       
-      <form action="/api/contact" method="POST" encType="multipart/form-data" className="space-y-6">
+      <form action="/api/contact" method="POST" encType="multipart/form-data" onSubmit={handleSubmit} className="space-y-6">
         {/* Basic Information */}
         <section className="space-y-4 pb-6 border-b border-primary/30">
           <h3 className="text-lg md:text-xl font-semibold text-primary dark:text-secondary">Contact Information</h3>
