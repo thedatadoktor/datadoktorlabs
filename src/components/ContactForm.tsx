@@ -13,7 +13,7 @@ function SuccessMessage() {
     <div className="mb-6 p-4 bg-secondary/20 border-2 border-secondary rounded">
       <h3 className="font-semibold text-secondary mb-2">✓ Submission Received</h3>
       <p className="text-sm md:text-base text-text-primary dark:text-slate-300">
-        Thank you for sharing your project details. We'll review your submission and get back to you within 1-2 business days.
+        Thank you for sharing your project details. We&apos;ll review your submission and get back to you within 1-2 business days.
       </p>
     </div>
   );
@@ -27,7 +27,7 @@ export default function ContactForm() {
       </Suspense>
       
       <p className="mb-6 text-base md:text-lg text-text-primary dark:text-slate-300">
-        Share details about your current data landscape and what you're trying to achieve. The more specific you are, the better we can help.
+        Share details about your current data landscape and what you&apos;re trying to achieve. The more specific you are, the better we can help.
       </p>
       
       <form action="/api/contact" method="POST" encType="multipart/form-data" className="space-y-6">
@@ -298,7 +298,7 @@ export default function ContactForm() {
             Submit Project Details
           </button>
           <p className="mt-3 text-sm text-text-muted dark:text-slate-400">
-            We'll review your submission and get back to you within 1-2 business days with next steps.
+            We&apos;ll review your submission and get back to you within 1-2 business days with next steps.
           </p>
         </div>
       </form>
