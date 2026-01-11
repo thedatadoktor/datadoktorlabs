@@ -40,6 +40,26 @@ const services = [
     desc: "Detect drift and failures early with validation, lineage, and proactive alerting.",
     href: "/services/observability",
   },
+  {
+    title: "Machine Learning & AI",
+    desc: "Build production ML systems with predictive models, fraud detection, and full MLOps.",
+    href: "/services/ml",
+  },
+  {
+    title: "Data Governance & Compliance",
+    desc: "GDPR and NDPR compliance with data inventories, access control, and retention policies.",
+    href: "/services/governance",
+  },
+  {
+    title: "Agri-Data Solutions",
+    desc: "Agricultural data systems for Nigerian farms with yield prediction and market intelligence.",
+    href: "/services/agri",
+  },
+  {
+    title: "Custom Automation",
+    desc: "Workflow automation and API integrations with Nigerian payment gateways and business tools.",
+    href: "/services/automation",
+  },
 ];
 
 export default function Services() {

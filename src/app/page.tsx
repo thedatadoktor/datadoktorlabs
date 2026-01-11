@@ -14,7 +14,7 @@ export default function Home() {
       <section className="bg-gradient-to-b from-bg-light via-bg-light to-bg-light dark:from-bg-dark-section dark:to-bg-dark-section/80">
         <div className="max-w-6xl mx-auto px-4 md:px-6 py-12 md:py-20 grid gap-8 md:grid-cols-2 items-center">
           <div>
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-secondary">Data Engineering as a Service</h1>
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-secondary">Reliable Data Systems. Built for Reality.</h1>
             <p className="mt-4 text-base md:text-lg text-text-primary dark:text-slate-300">
               We design, build, and operate production-grade data pipelines, warehouses, and analytics systems for teams that need their data to actually work.
             </p>
