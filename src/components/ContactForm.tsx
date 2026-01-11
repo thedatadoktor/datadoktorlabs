@@ -92,15 +92,14 @@ export default function ContactForm() {
           <h3 className="text-lg md:text-xl font-semibold text-primary dark:text-secondary">Project Scope</h3>
           
           <div>
-            <label htmlFor="services" className="block text-sm font-medium text-text-primary dark:text-slate-300 mb-2">Services Needed * (Select all that apply)</label>
+            <label htmlFor="services" className="block text-sm font-medium text-text-primary dark:text-slate-300 mb-2">Services Needed *</label>
             <select 
               id="services"
               name="services" 
-              multiple 
-              size={10}
-              className="w-full border-3 border-primary px-3 py-2 bg-bg-light text-white text-sm md:text-base rounded"
+              className="w-full border-3 border-primary px-3 py-2 md:py-3 bg-white dark:bg-slate-800 text-gray-900 dark:text-white text-sm md:text-base rounded [&>option]:bg-white [&>option]:dark:bg-slate-800 [&>option]:text-gray-900 [&>option]:dark:text-white"
               required
             >
+              <option value="">Select a service</option>
               <option value="data-pipeline-engineering">Data Pipeline Engineering</option>
               <option value="warehousing-modeling">Warehousing & Data Modeling</option>
               <option value="streaming-systems">Streaming Systems</option>
@@ -111,8 +110,8 @@ export default function ContactForm() {
               <option value="data-governance-compliance">Data Governance & Compliance</option>
               <option value="agri-data-solutions">Agri-Data Solutions</option>
               <option value="custom-automation">Custom Automation</option>
+              <option value="multiple-services">Multiple Services</option>
             </select>
-            <p className="mt-1 text-xs text-text-muted dark:text-slate-400">Hold Ctrl (Windows) or Cmd (Mac) to select multiple</p>
           </div>
 
           <div>
@@ -120,7 +119,7 @@ export default function ContactForm() {
             <select 
               id="industry"
               name="industry" 
-              className="w-full border-3 border-primary px-3 py-2 md:py-3 bg-bg-light text-white text-sm md:text-base rounded"
+              className="w-full border-3 border-primary px-3 py-2 md:py-3 bg-white dark:bg-slate-800 text-gray-900 dark:text-white text-sm md:text-base rounded [&>option]:bg-white [&>option]:dark:bg-slate-800 [&>option]:text-gray-900 [&>option]:dark:text-white"
               required
             >
               <option value="">Select your industry</option>
@@ -142,7 +141,7 @@ export default function ContactForm() {
             <select 
               id="timeline"
               name="timeline" 
-              className="w-full border-3 border-primary px-3 py-2 md:py-3 bg-bg-light text-white text-sm md:text-base rounded"
+              className="w-full border-3 border-primary px-3 py-2 md:py-3 bg-white dark:bg-slate-800 text-gray-900 dark:text-white text-sm md:text-base rounded [&>option]:bg-white [&>option]:dark:bg-slate-800 [&>option]:text-gray-900 [&>option]:dark:text-white"
               required
             >
               <option value="">Select timeline</option>
@@ -159,7 +158,7 @@ export default function ContactForm() {
             <select 
               id="budget"
               name="budget" 
-              className="w-full border-3 border-primary px-3 py-2 md:py-3 bg-bg-light text-white text-sm md:text-base rounded"
+              className="w-full border-3 border-primary px-3 py-2 md:py-3 bg-white dark:bg-slate-800 text-gray-900 dark:text-white text-sm md:text-base rounded [&>option]:bg-white [&>option]:dark:bg-slate-800 [&>option]:text-gray-900 [&>option]:dark:text-white"
             >
               <option value="">Prefer not to say</option>
               <option value="under-10k">Under $10,000</option>
@@ -200,7 +199,7 @@ export default function ContactForm() {
             <select 
               id="data-volume"
               name="data_volume" 
-              className="w-full border-3 border-primary px-3 py-2 md:py-3 bg-bg-light text-white text-sm md:text-base rounded"
+              className="w-full border-3 border-primary px-3 py-2 md:py-3 bg-white dark:bg-slate-800 text-gray-900 dark:text-white text-sm md:text-base rounded [&>option]:bg-white [&>option]:dark:bg-slate-800 [&>option]:text-gray-900 [&>option]:dark:text-white"
             >
               <option value="">Not sure</option>
               <option value="small">Small (&lt; 1GB)</option>
