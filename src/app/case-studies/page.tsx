@@ -13,18 +13,24 @@ const cases = [
     sector: "SaaS",
     summary: "Built a semantic layer and metrics catalog eliminating dashboard disagreements across teams.",
     impact: "-45% time-to-insight, consistent KPIs across 12 domains",
+    github: "https://github.com/datadoktorlabs/metrics-platform",
+    dashboard: "https://metrics.datadoktorlabs.com",
   },
   {
     title: "Streaming ETL Migration",
     sector: "E-commerce",
     summary: "Migrated nightly batch to a streaming pipeline with backpressure handling and alerting.",
     impact: "Sub-5m latency, recovery from failures without manual intervention",
+    github: "https://github.com/datadoktorlabs/streaming-etl",
+    dashboard: "https://streaming.datadoktorlabs.com",
   },
   {
     title: "Cost-Aware Warehouse Rebuild",
     sector: "Fintech",
     summary: "Refactored models and storage tiers, introducing lineage and automated validation gates.",
     impact: "30% cost reduction, fewer incidents, faster model iteration",
+    github: "https://github.com/datadoktorlabs/warehouse-rebuild",
+    dashboard: "https://warehouse.datadoktorlabs.com",
   },
 ];
 
@@ -41,6 +47,18 @@ export default function CaseStudies() {
             </div>
             <p className="mt-2 text-text-primary dark:text-slate-300">{c.summary}</p>
             <p className="mt-2 text-sm text-text-muted dark:text-slate-400">Impact: {c.impact}</p>
+            <div className="mt-4 flex gap-4 text-sm">
+              {c.github && (
+                <a href={c.github} target="_blank" rel="noopener noreferrer" className="text-secondary hover:text-accent transition">
+                  GitHub →
+                </a>
+              )}
+              {c.dashboard && (
+                <a href={c.dashboard} target="_blank" rel="noopener noreferrer" className="text-secondary hover:text-accent transition">
+                  Dashboard →
+                </a>
+              )}
+            </div>
           </article>
         ))}
       </div>
